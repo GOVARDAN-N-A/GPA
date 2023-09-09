@@ -32,7 +32,7 @@ body{
    }
    .cal{
     font-size: 1.3rem;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     background-color: black;
     color: bisque;
     border-radius: 1rem;
