@@ -33,9 +33,7 @@ body{
     font-size: 1rem;
     font-weight: 500;
    }
-   option{
-    border: 1px solid salmon;
-   }
+   
    .cal{
     font-size: 1.3rem;
     /* margin-left: 40%; */
@@ -56,7 +54,7 @@ body{
     margin-top: 20px;
     display: flex;
     border: 5px solid coral;
-    padding: 1.5rem;
+    padding: 0.5rem;
     justify-content: space-between;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
