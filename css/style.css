@@ -1,10 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: bisque;
    }
    header{
     text-align: center;
-    border-bottom: 5px solid coral;
+    border: 5px solid coral;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1.5rem;
     margin-bottom: 20px;
    }
    .main{
@@ -37,6 +43,7 @@ body{
     color: bisque;
     border-radius: 1rem;
     padding: 0.7rem;
+    margin-bottom: 20px;
    }
    .op{
     margin-top: 20px;
@@ -44,4 +51,18 @@ body{
     font-size: 1.5rem;
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   footer{
+    margin-top: 20px;
+    display: flex;
+    border: 5px solid coral;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+   }
+   .top{
+    font-weight: 800;
    }
