@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+   }
+   header{
+    text-align: center;
+    border-bottom: 5px solid coral;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+   }
+   .main{
+    border: 5px solid coral;
+    display: flex;
+    justify-content: center;
+
+   }
+   .input-container{
+    margin:20px;
+    text-align: center;
+   }
+   .sub_name{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .grade-select{
+    padding: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+   }
+   option{
+    border: 1px solid salmon;
+   }
+   .cal{
+    font-size: 1.3rem;
+    margin-left: 40%;
+    background-color: black;
+    color: bisque;
+    border-radius: 1rem;
+    padding: 0.7rem;
+   }
+   .op{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
