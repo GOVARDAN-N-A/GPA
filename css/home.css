@@ -177,13 +177,15 @@ footer{
 border-radius: 40px;
 padding: 1.5rem;
    }
-@media screen and (max-width:786px) {
+@media screen and (max-width:775px) {
+   
     .logo h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .logo img{
         width: 30px;
         height: 30px;
+
     }
     .view_result{
         margin: 20px 15px;
@@ -192,5 +194,20 @@ padding: 1.5rem;
     .gpa_sec{
         margin: 20px 15px;
         padding: 0.5rem;
+    }
+    .cgpa_sec{
+        margin: 20px 15px;
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width:440px) {
+    
+    .logo h1{
+        font-size: 1.3rem;
+    }
+    .logo img{
+       
+        visibility: hidden;
+
     }
 }
