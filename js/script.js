@@ -32,7 +32,7 @@ function getCourseCredits(courseId) {
         case 'GE3451-grade':
             return 2;
         case 'SB8021-grade':
-            return 3;
+            return 2;
         case 'CS3461-grade':
             return 1.5;
         case 'CS3481-grade':
@@ -50,3 +50,4 @@ function showECE() {
     document.getElementById("cseContent").style.display = "none";
     document.getElementById("eceContent").style.display = "block";
 }
+
