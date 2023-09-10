@@ -2,19 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
-    background-color: bisque;
+    background-color: #1c1e2b;
+    border: 5px solid #651ef4;
+    color: #febc2e;
    }
    header{
     text-align: center;
-    border: 5px solid coral;
+    border-bottom: 5px solid #651ef4;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 1.5rem;
     margin-bottom: 20px;
    }
    .main{
-    border: 5px solid coral;
+    border-bottom: 5px solid #651ef4;
     display: flex;
     justify-content: center;
 
@@ -37,8 +40,8 @@ body{
    .cal{
     font-size: 1.3rem;
     /* margin-left: 40%; */
-    background-color: black;
-    color: bisque;
+    background-color: bisque;
+    color: black;
     border-radius: 1rem;
     padding: 0.7rem;
     margin-bottom: 20px;
@@ -53,7 +56,7 @@ body{
    footer{
     margin-top: 20px;
     display: flex;
-    border: 5px solid coral;
+    border-bottom: 5px solid #651ef4;
     padding: 0.5rem;
     justify-content: space-between;
     align-items: center;
@@ -63,4 +66,5 @@ body{
    }
    .top{
     font-weight: 800;
+    
    }

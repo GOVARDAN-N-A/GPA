@@ -19,23 +19,23 @@ function calculateAndDisplayGPA() {
 
 function getCourseCredits(courseId) {
     switch (courseId) {
-        case 'CS3452-grade':
+        case 'EC3452-grade':
             return 3;
-        case 'CS3491-grade':
+        case 'EC3401-grade':
             return 4;
-        case 'CS3492-grade':
+        case 'EC3451-grade':
             return 3;
-        case 'CS3401-grade':
+        case 'EC3492-grade':
             return 4;
-        case 'CS3451-grade':
+        case 'EC3491-grade':
             return 3;
         case 'GE3451-grade':
             return 2;
         case 'SB8021-grade':
             return 3;
-        case 'CS3461-grade':
+        case 'EC3461-grade':
             return 1.5;
-        case 'CS3481-grade':
+        case 'EC3462-grade':
             return 1.5;
         default:
             return 0; 
