@@ -10,7 +10,7 @@ a{
 }
 body{
     background-color: #1c1e2b;
-    border: 5px solid #651ef4;
+    /* border: 5px solid #651ef4; */
     color: #febc2e;
    }
    header{
@@ -47,8 +47,10 @@ body{
     background-color: bisque;
     color: black;
     border-radius: 1rem;
+    margin-left: 40%;
     padding: 0.7rem;
     margin-bottom: 20px;
+
    }
    .op{
     /* margin-top: 20px; */
