@@ -7,7 +7,7 @@ header{
     /* background-color: #050a30; */
     padding: 1rem;
     border-bottom:5px solid rgb(101, 30, 244);
-
+    position: static;
 }
 .logo{
     display: flex;
@@ -143,7 +143,24 @@ padding: 1.5rem;
     inset 10px 10px 10px rgba(0, 0, 0, 0.4); 
 }
 
+footer{
+    /* margin-top: 20px; */
+    display: flex;
+    border-top: 5px solid #febc2e;
+    padding: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+   }
+ footer p{
+    color: #febc2e;
 
+ } 
+   .top{
+    font-weight: 800;
+   }
 @media screen and (max-width:786px) {
     .logo h1{
         font-size: 1rem;
