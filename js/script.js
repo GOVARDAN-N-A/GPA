@@ -51,3 +51,40 @@ function showECE() {
     document.getElementById("eceContent").style.display = "block";
 }
 
+
+function generateGPAInputs() {
+    const selectedSemester = parseInt(document.getElementById('currentSemester').value);
+    const gpaInputsContainer = document.getElementById('gpaInputs');
+    gpaInputsContainer.innerHTML = '';
+
+    for (let i = 1; i <= selectedSemester; i++) {
+        const gpaInput = document.createElement('div');
+        gpaInput.innerHTML = `
+            <label for="semester${i}">Semester ${i} GPA:</label>
+            <input type="number" id="semester${i}" min="0" max="10" step="0.01">
+        `;
+        gpaInputsContainer.appendChild(gpaInput);
+    }
+}
+
+function calculateCGPA() {
+    const selectedSemester = parseInt(document.getElementById('currentSemester').value);
+    const semesterGPAs = [];
+
+    for (let i = 1; i <= selectedSemester; i++) {
+        const gpaInput = parseFloat(document.getElementById(`semester${i}`).value);
+        semesterGPAs.push(gpaInput);
+    }
+
+    // Calculate the average GPA of the selected semesters as CGPA
+    const totalGPA = semesterGPAs.reduce((total, gpa) => total + gpa, 0);
+    const averageCGPA = totalGPA / semesterGPAs.length;
+
+    // Display the calculated CGPA on the webpage
+    const cgpaSpan = document.getElementById('cgpa');
+    cgpaSpan.textContent = averageCGPA.toFixed(2);
+}
+
+document.getElementById('currentSemester').addEventListener('change', generateGPAInputs);
+
+generateGPAInputs();

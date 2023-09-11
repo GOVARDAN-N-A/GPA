@@ -33,7 +33,33 @@
     </section>
     <section class="cgpa_sec">
         <h2>CGPA Calculator</h2>
-       <img src="images/work-in-progress.gif" alt="work-in-progress" width="200" height="200">
+       <!-- <img src="images/work-in-progress.gif" alt="work-in-progress" width="200" height="200"> -->
+       <div class="cgpa-inputs">
+        <h3>Enter Your Current Semester</h3>
+        <label for="currentSemester">Current Semester:</label>
+        <select id="currentSemester">
+            <option value="1">Semester 1</option>
+            <option value="2">Semester 2</option>
+            <option value="3">Semester 3</option>
+            <option value="4">Semester 4</option>
+            <option value="5">Semester 5</option>
+            <option value="6">Semester 6</option>
+            <option value="7">Semester 7</option>
+            <option value="8">Semester 8</option>
+            <!-- Add more semester options as needed -->
+        </select>
+        
+
+        <div id="gpaInputs">
+            <!-- GPA input fields will be generated dynamically based on the selected semester -->
+        </div>
+
+        <button onclick="calculateCGPA()" class="cgpa_show">Calculate CGPA</button>
+    </div>
+    <div class="cgpa-result">
+        <h3>Your CGPA is&nbsp; : &nbsp;&nbsp;<p id="cgpa">0.0</p></h3>
+        
+    </div>
     </section>
 </main>
     <footer>
