@@ -186,18 +186,27 @@ padding: 1.5rem;
     margin: 10px;
         font-size: 2rem;
    }
-   label{
+   /* .cur-sem{
     font-size: 1.8rem;
     margin-right: 20px;
-   }
+   } */
 
-   #currentSemester{
+   label{
+    font-size: 2rem;
     /* margin-left: 10px; */
-    font-size: 1.1rem;
+   }
+ 
+   #currentSemester{
+     /* margin-left: 10px; */
+    font-size: 1rem;
    }
    option{
-    font-size: 1.8rem;
-    margin-left: 20px;
+    font-size: 2.2rem;
+    
+   }
+   input{
+    font-size: 1.1rem;
+    /* margin-left: 20px; */
    }
    .cgpa_show{
     margin-top: 10px;
@@ -237,7 +246,7 @@ padding: 1.5rem;
 
     
 }
-@media screen and (max-width:440px) {
+@media screen and (max-width:475px) {
     
     .logo h1{
         font-size: 1.3rem;
@@ -247,4 +256,20 @@ padding: 1.5rem;
         visibility: hidden;
 
     }
+    #currentSemester{
+        /* margin-left: 10px; */
+       font-size: 0.7rem;
+      }
+      .cgpa-inputs h3{ 
+        font-size: 1.1rem;
+        text-align: center;
+      }
+      option{
+       font-size: 1rem;
+       
+      }
+      input{
+       font-size: 0.9rem;
+       /* margin-left: 20px; */
+      }
 }

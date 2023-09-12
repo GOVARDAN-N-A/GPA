@@ -60,7 +60,7 @@ function generateGPAInputs() {
     for (let i = 1; i <= selectedSemester; i++) {
         const gpaInput = document.createElement('div');
         gpaInput.innerHTML = `
-            <label for="semester${i}">Semester ${i} GPA:</label>
+            <label for="semester${i}" >Semester ${i} GPA &nbsp;:</label>
             <input type="number" id="semester${i}" min="0" max="10" step="0.01">
         `;
         gpaInputsContainer.appendChild(gpaInput);
